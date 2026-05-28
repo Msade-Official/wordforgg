@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Word Forgg – Privacy Policy</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #090D1A; --surface: #111629; --card: #182040;
+    --primary: #4F8EF7; --accent: #06D6A0;
+    --text: #E8EDF5; --muted: #8899B5; --border: #2A3560;
+  }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    font-size: 16px; line-height: 1.75;
+  }
+  header {
+    background: var(--surface); border-bottom: 1px solid var(--border);
+    padding: 28px 24px 20px; display: flex; align-items: center; gap: 16px;
+  }
+  .logo {
+    width: 48px; height: 48px; border-radius: 12px;
+    background: var(--card); border: 1.5px solid var(--primary);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px; font-weight: 900; color: var(--primary); flex-shrink: 0;
+  }
+  header h1 { font-size: 22px; font-weight: 800; }
+  header p  { font-size: 13px; color: var(--muted); margin-top: 2px; }
+  main { max-width: 780px; margin: 0 auto; padding: 40px 24px 80px; }
+  .badge {
+    display: inline-block; background: var(--card); border: 1px solid var(--border);
+    border-radius: 6px; padding: 4px 12px; font-size: 12px; color: var(--muted);
+    margin-bottom: 32px;
+  }
+  h2 {
+    font-size: 18px; font-weight: 700; color: var(--primary);
+    margin: 36px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border);
+  }
+  p  { color: var(--muted); margin-bottom: 14px; }
+  ul { color: var(--muted); padding-left: 20px; margin-bottom: 14px; }
+  ul li { margin-bottom: 6px; }
+  .callout {
+    background: var(--card); border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0; padding: 16px 20px; margin: 20px 0;
+    color: var(--text);
+  }
+  .callout strong { color: var(--accent); }
+  a { color: var(--primary); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  code { background: var(--card); border-radius: 4px; padding: 1px 6px; font-size: 14px; }
+  footer {
+    text-align: center; color: var(--muted); font-size: 13px;
+    padding: 28px 24px; border-top: 1px solid var(--border);
+    background: var(--surface);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">W⊞</div>
+  <div>
+    <h1>Word Forgg</h1>
+    <p>Privacy Policy</p>
+  </div>
+</header>
+
+<main>
+  <div class="badge">Last updated: January 2025 &nbsp;·&nbsp; Effective immediately</div>
+
+  <div class="callout">
+    <strong>The short version:</strong> Word Forgg collects no personal data,
+    requires no account, contains no ads, and works entirely offline. Your game
+    progress is saved only on your own device.
+  </div>
+
+  <h2>1. Introduction</h2>
+  <p>
+    This Privacy Policy describes how the Word Forgg mobile application ("the App")
+    handles information. By downloading or using the App you agree to the practices
+    described here.
+  </p>
+
+  <h2>2. Information Collected</h2>
+  <p><strong>No personal information is collected.</strong> Specifically:</p>
+  <ul>
+    <li>No name, email address, phone number, or identifier of any kind is collected.</li>
+    <li>No account or login is required to use the App.</li>
+    <li>No location data is accessed.</li>
+    <li>No camera, microphone, or contacts are used.</li>
+    <li>No analytics or crash-reporting SDKs are included in the App.</li>
+  </ul>
+
+  <h2>3. Data Stored on Your Device</h2>
+  <p>
+    The App uses Android's <code>SharedPreferences</code> to store the following
+    data <em>locally on your device only</em>:
+  </p>
+  <ul>
+    <li>Level completion status and star ratings.</li>
+    <li>The highest level you have unlocked.</li>
+    <li>Sound and music on/off preferences.</li>
+  </ul>
+  <p>
+    This data never leaves your device and is permanently deleted when you
+    uninstall the App.
+  </p>
+
+  <h2>4. Network Access</h2>
+  <p>
+    Word Forgg does not require an internet connection to play. The App may
+    request the <code>INTERNET</code> permission solely so the
+    <code>google_fonts</code> library can cache display fonts on first launch
+    when a connection is available. No personal data is transmitted during this
+    process. All gameplay is fully offline.
+  </p>
+
+  <h2>5. Third-Party Libraries</h2>
+  <p>The App uses the following open-source Flutter packages. None collect personal data:</p>
+  <ul>
+    <li><strong>provider</strong> – local state management only.</li>
+    <li><strong>shared_preferences</strong> – on-device storage only.</li>
+    <li><strong>google_fonts</strong> – fetches font files from Google's CDN on first
+        launch only; see <a href="https://policies.google.com/privacy" target="_blank">
+        Google's Privacy Policy</a> for that request. No user data is sent.</li>
+    <li><strong>audioplayers</strong> – plays bundled audio files; no network activity.</li>
+  </ul>
+  <p>No advertising, analytics, social login, or tracking SDKs are used.</p>
+
+  <h2>6. Children's Privacy</h2>
+  <p>
+    The App is appropriate for all ages. No personal information is collected
+    from any user, including children under 13.
+  </p>
+
+  <h2>7. Your Rights</h2>
+  <p>
+    Since no personal data is collected or stored outside your device, there
+    is nothing to access, correct, or delete remotely. To remove all locally
+    stored data, uninstall the App.
+  </p>
+
+  <h2>8. Changes to This Policy</h2>
+  <p>
+    This policy may be updated occasionally. Changes are indicated by a revised
+    "Last updated" date at the top. Continued use of the App after changes are
+    posted constitutes acceptance of the updated policy.
+  </p>
+
+  <h2>9. Contact</h2>
+  <p>
+    Questions about this policy can be sent to:<br>
+    <a href="mailto:wordforgg.app@gmail.com">wordforgg.app@gmail.com</a>
+  </p>
+</main>
+
+<footer>
+  Word Forgg &nbsp;·&nbsp; Privacy Policy &nbsp;·&nbsp;
+  <a href="mailto:wordforgg.app@gmail.com">wordforgg.app@gmail.com</a>
+</footer>
+
+</body>
+</html>
